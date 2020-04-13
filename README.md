@@ -1,43 +1,45 @@
-<SHOPPING_APP>
+# PET ADOPTION APP
 =====================
 
-An app for user to search, order products from a shop.
+An app for user to find and adopt abandoned dog, cat and other pets.
 
 Running Tests
 -------------
+## Backend- PHP
+Download and install MAMP OR XAMP.
+Put the pet-adoption-server folder into htdocs folder of MAMP or XAMP.
+Start the Apache Web Server & MySQL Databases.
 
-### React native
+## Frontend- React native
 In the app directory, use: 
+```
 react-native run-ios
+```
 OR
+```
 react-native run-android
+```
 
-__Demonstration__
-
-Homepage
+### Homepage
 
 ![Screenshot](images/UI/homepage.png)
 
-List of Top Products
+### List 
 
-![Screenshot](images/UI/topProducts.png)
+![Screenshot](images/UI/list.png)
 
-Product details
+### Details
 
-![Screenshot](images/UI/productDetails.png)
+![Screenshot](images/UI/details.png)
 
-Search
-
-![Screenshot](images/UI/search.png)
-
-Cart
+### Cart
 
 ![Screenshot](images/UI/cart.png)
 
-Side Drawer
+### Side Drawer
 
 ![Screenshot](images/UI/drawer.png)
 
-Sign-in
+### Sign-in
 
 ![Screenshot](images/UI/signIn.png)
