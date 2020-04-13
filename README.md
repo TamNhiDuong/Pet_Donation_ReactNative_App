@@ -1,16 +1,17 @@
 # PET ADOPTION APP
+Demo clip: https://youtu.be/sTjhpTI7gCk
 =====================
 
 An app for user to find and adopt abandoned dog, cat and other pets.
 
-Running Tests
+## Running Tests
 -------------
-## Backend- PHP
+### Backend- PHP
 Download and install MAMP OR XAMP.
 Put the pet-adoption-server folder into htdocs folder of MAMP or XAMP.
 Start the Apache Web Server & MySQL Databases.
 
-## Frontend- React native
+### Frontend- React native
 In the app directory, use: 
 ```
 react-native run-ios
@@ -24,22 +25,15 @@ react-native run-android
 
 ![Screenshot](images/UI/homepage.png)
 
-### List 
-
-![Screenshot](images/UI/list.png)
-
-### Details
+### List of category & Details
 
 ![Screenshot](images/UI/details.png)
 
-### Cart
+### Contact & Cart
 
 ![Screenshot](images/UI/cart.png)
 
-### Side Drawer
+### Login & Side Drawer
 
 ![Screenshot](images/UI/drawer.png)
 
-### Sign-in
-
-![Screenshot](images/UI/signIn.png)
