@@ -114,7 +114,8 @@ const styles = StyleSheet.create({
   },
   txtPrice: {
     paddingLeft: 20,
-    color: '#C21C70',
+    color: '#c79500',
+    fontWeight: '600',
     fontSize: 15,
     fontWeight: '400',
     fontFamily: 'Avenir'

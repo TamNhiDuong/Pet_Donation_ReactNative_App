@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, TouchableOpacity, Dimensions, Image, TextInput, StyleSheet} 
-from 'react-native';
+import {View, Text, TouchableOpacity, Dimensions, Image, TextInput, StyleSheet} from 'react-native';
 
 import icMenu from '../../../images/appIcon/ic_menu.png';
 import petlogo from '../../../images/appIcon/pet-logo2.png';
@@ -9,8 +8,6 @@ import global from '../../global';
 
 import searchAPI from '../../../api/searchAPI';
 
-//onPress={this.props.onOpen}
-//onPress={this.toggleDrawer.bind(this)}
 const {height} = Dimensions.get('window');
 
 
@@ -53,7 +50,7 @@ export default class Header extends Component {
 const styles = StyleSheet.create({
   wrapper: {
     height: height / 6,
-    backgroundColor: '#437777',
+    backgroundColor: '#437777', 
     padding: 10,
     justifyContent: 'space-around',
   },

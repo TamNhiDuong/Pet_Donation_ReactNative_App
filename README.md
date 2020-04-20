@@ -33,7 +33,4 @@ react-native run-android
 
 ![Screenshot](images/UI/cart.png)
 
-### Login & Side Drawer
-
-![Screenshot](images/UI/drawer.png)
 

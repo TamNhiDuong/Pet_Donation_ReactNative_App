@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image, Dimensions } from 'react-native';
-import map from '../../../../images/appIcon/map.png';
 
 import phoneIcon from '../../../../images/appIcon/phone.png';
 import mailIcon from '../../../../images/appIcon/mail.png';
@@ -102,7 +101,7 @@ const styles = StyleSheet.create({
   },
   infoText: {
     fontFamily: 'Avenir',
-    color: '#AE005E',
+    color: '#c79500',
     fontWeight: '500'
   },
   mapStyle: {

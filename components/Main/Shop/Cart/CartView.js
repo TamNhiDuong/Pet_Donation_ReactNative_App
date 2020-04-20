@@ -71,15 +71,6 @@ class CartView extends Component {
                   <Text style={txtPrice}>{item.product.price}€</Text>
                 </View>
                 <View style={productController}>
-                  <View style={numberOfProduct}>
-                    <TouchableOpacity onPress={() => this.incrQuantity(item.product.id)}>
-                      <Text>+</Text>
-                    </TouchableOpacity>
-                    <Text>{item.quantity}</Text>
-                    <TouchableOpacity onPress={() => this.decrQuantity(item.product.id)}>
-                      <Text>-</Text>
-                    </TouchableOpacity>
-                  </View>
                   <TouchableOpacity style={showDetailContainer} onPress={() => this.gotoDetail(item.product)}>
                     <Text style={txtShowDetail}>SHOW DETAILS</Text>
                   </TouchableOpacity>
@@ -161,15 +152,15 @@ const styles = StyleSheet.create({
   },
   txtPrice: {
     paddingLeft: 20,
-    color: '#C21C70',
+    color: '#c79500',
     fontSize: 20,
-    fontWeight: '400',
+    fontWeight: '600',
     fontFamily: 'Avenir'
   },
   txtShowDetail: {
-    color: '#C21C70',
+    color: '#c79500',
     fontSize: 10,
-    fontWeight: '400',
+    fontWeight: '600',
     fontFamily: 'Avenir',
     textAlign: 'right',
   },

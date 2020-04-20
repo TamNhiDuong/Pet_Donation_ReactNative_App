@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     height: productHeight,
   },
   priceStyle: {
-    color: '#B10D65',
+    color: '#c79500',
     fontWeight: '600',
     paddingLeft: 20,
   },

@@ -72,7 +72,6 @@ export default class ProductList extends Component {
             <TouchableOpacity onPress={this.goBack.bind(this)}>
               <Image source={backList} style={backStyle} />
             </TouchableOpacity>
-            <Text style={titleStyle}>{category.name}</Text>
             <View style={{ width: 30 }} />
           </View>
           <FlatList
@@ -135,7 +134,8 @@ const styles = StyleSheet.create({
   },
   titleStyle: {
     fontSize: 20,
-    color: '#B10D65',
+    color: '#c79500',
+    fontWeight: '600',
   },
   productContainer: {
     flexDirection: 'row',
@@ -169,13 +169,15 @@ const styles = StyleSheet.create({
     fontWeight: '400',
   },
   txtPrice: {
-    color: '#B10D65',
+    color: '#c79500',
+    fontWeight: '600',
   },
   txtMaterial: {
     color: '#5c5c5c',
   },
   txtDetails: {
     color: '#B10D65',
+    fontWeight: '600',
     fontSize: 13,
   },
   txtColor: {

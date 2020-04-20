@@ -76,10 +76,6 @@ export default class ProductDetails extends Component {
                   <Text style={txtMaterial}>Weight: {weight}</Text>
                   <Text style={txtMaterial}>Vaccinated on: {vaccinatedLastTime}</Text>
                 </View>
-                <View style={{ flexDirection: 'row' }} >
-                  <Text style={txtColor}>Color {color}</Text>
-                  <View style={{ height: 15, width: 15, backgroundColor: color.toLowerCase(), borderRadius: 15, marginLeft: 10, borderWidth: 1, borderColor: '#C21C70' }} />
-                </View>
               </View>
             </View>
           </View>
@@ -187,9 +183,9 @@ const styles = StyleSheet.create({
     fontFamily: 'Avenir'
   },
   txtMaterial: {
-    color: '#C21C70',
+    color: '#c79500',
     fontSize: 15,
-    fontWeight: '400',
+    fontWeight: '600',
     fontFamily: 'Avenir'
   }
 });
