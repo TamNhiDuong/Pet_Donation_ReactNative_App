@@ -16,7 +16,7 @@ export default class Collection extends React.Component {
     return (
       <View style={wrapper}>
         <View style={{flex: 1, justifyContent: 'center'}}>
-          <Text style={text}>LIST OF CATEGORY</Text>
+          <Text style={text}>CATEGORIES</Text>
         </View>
         <View style={{flex: 4}}>
           <Swiper>
@@ -43,6 +43,7 @@ const imageWidth = width - 40;
 const imageHeight = (imageWidth / 933) * 465;
 const styles = StyleSheet.create({
   wrapper: {
+    borderRadius: 15,
     height: height * 0.3,
     backgroundColor: '#FFF',
     margin: 10,

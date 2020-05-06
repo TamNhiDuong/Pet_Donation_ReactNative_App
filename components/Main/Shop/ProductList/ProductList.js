@@ -85,7 +85,7 @@ export default class ProductList extends Component {
                   <View style={productInfor}>
                     <Text style={txtName}>{item.name}</Text>
                     <Text style={txtPrice}>{item.price}€</Text>
-                    <Text style={txtMaterial}>{item.material}</Text>
+
                     <View style={detailsRow}>
                       <Text style={txtColor}>{item.color}</Text>
                       <View style={{ backgroundColor: item.color.toLowerCase(), width: 10, height: 10, borderRadius: 5 }} />

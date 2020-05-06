@@ -27,7 +27,7 @@ class Contact extends Component {
           >
             <MapView.Marker 
             coordinate={{latitude: 60.220800, longitude: 24.777650}}
-            title="Uniquely You Shop"
+            title="Pet Adoption Center"
             description= "Come and visit"
             />
           </MapView>
@@ -39,15 +39,15 @@ class Contact extends Component {
           </View>
           <View style={rowInfoContainer}>
             <Image source={phoneIcon} style={imageStyle} />
-            <Text style={infoText}>(+358) 469664201</Text>
+            <Text style={infoText}>(+358) 12345678</Text>
           </View>
           <View style={rowInfoContainer}>
             <Image source={mailIcon} style={imageStyle} />
-            <Text style={infoText}>yanxinyee@gmail.com</Text>
+            <Text style={infoText}>mon@gmail.com</Text>
           </View>
           <View style={[rowInfoContainer, { borderBottomWidth: 0 }]}>
             <Image source={messageIcon} style={imageStyle} />
-            <Text style={infoText}>(+358) 469664201</Text>
+            <Text style={infoText}>(+358) 12345678</Text>
           </View>
         </View>
       </View>
