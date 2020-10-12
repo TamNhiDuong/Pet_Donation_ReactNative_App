@@ -24,14 +24,18 @@ export default class Header extends Component {
     this.setState({txtInput: ''})
   }
   render() {
-    const {wrapper, row1, input, icons, title, logo} = styles;
+    const {wrapper, row1, input, icons, title, logo, slogan, headertext} = styles;
     return (
       <View style={wrapper}>
         <View style={row1}>
           <TouchableOpacity onPress={this.props.onOpen}>
             <Image source={icMenu} style={icons} />
           </TouchableOpacity>
-          <Text style={title}>Espoo Pet Donation</Text>
+          <View style={headertext}>
+            <Text style={title}>Espoo Pet Donation</Text>
+            <Text style={slogan}>1 donation feeds 1 meal for the pet</Text>
+          </View>
+
           <Image source={petlogo} style={logo} />
         </View>
         <TextInput 
@@ -63,4 +67,14 @@ const styles = StyleSheet.create({
     fontSize: 21,
     paddingTop: 28,
   },
+  slogan: {
+    color: '#FFF',
+    fontSize: 11,
+    paddingTop: 8,
+    textAlign: "center"
+  },
+  headertext: {
+    flexDirection: "column",
+    textAlign: "center"
+  }
 });

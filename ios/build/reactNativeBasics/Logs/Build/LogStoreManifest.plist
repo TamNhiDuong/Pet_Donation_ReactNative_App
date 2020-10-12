@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>22D64512-E28A-4A40-89DA-49391389C7D8</key>
+		<key>A11CACB6-7944-4A02-BCD3-44CC896B36A9</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,11 +15,11 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>22D64512-E28A-4A40-89DA-49391389C7D8.xcactivitylog</string>
+			<string>A11CACB6-7944-4A02-BCD3-44CC896B36A9.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>reactNativeBasics project</string>
@@ -30,45 +30,13 @@
 			<key>signature</key>
 			<string>Building workspace reactNativeBasics with scheme reactNativeBasics and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>624191612.34852803</real>
+			<real>624207066.05140698</real>
 			<key>timeStoppedRecording</key>
-			<real>624191613.84493399</real>
+			<real>624207071.35220098</real>
 			<key>title</key>
 			<string>Building workspace reactNativeBasics with scheme reactNativeBasics and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>22D64512-E28A-4A40-89DA-49391389C7D8</string>
-		</dict>
-		<key>540F8AC9-9C5A-4556-83D0-B95C8971C73A</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>540F8AC9-9C5A-4556-83D0-B95C8971C73A.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>reactNativeBasics project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>reactNativeBasics</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace reactNativeBasics with scheme reactNativeBasics and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>624189518.49317896</real>
-			<key>timeStoppedRecording</key>
-			<real>624189521.841277</real>
-			<key>title</key>
-			<string>Building workspace reactNativeBasics with scheme reactNativeBasics and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>540F8AC9-9C5A-4556-83D0-B95C8971C73A</string>
+			<string>A11CACB6-7944-4A02-BCD3-44CC896B36A9</string>
 		</dict>
 	</dict>
 </dict>
