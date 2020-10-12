@@ -39,7 +39,7 @@ export default class ProductDetails extends Component {
     } = styles;
     const {name, id, price, color, age, description, images, vaccinatedLastTime, weight, gender} = this.props.product;
     return (
-      <View style={wrapper}>
+      <ScrollView style={wrapper}>
         <View style={cardStyle}>
           <View style={header}>
             <TouchableOpacity onPress={this.goBack.bind(this)}>
@@ -75,13 +75,14 @@ export default class ProductDetails extends Component {
                 </View>
                   <Text style={txtMaterial}>Age: {age}</Text>
                   <Text style={txtMaterial}>Weight: {weight}</Text>
+                  <Text style={txtMaterial}>Gender: {gender}</Text>
                   <Text style={txtMaterial}>Vaccinated on: {vaccinatedLastTime}</Text>
                 </View>
               </View>
             </View>
           </View>
         </View>
-      </View>
+      </ScrollView>
     );
   }
 }
@@ -159,10 +160,11 @@ const styles = StyleSheet.create({
   descContainer: {
     margin: 10,
     paddingTop: 10,
-    paddingHorizontal: 10
+    paddingHorizontal: 10,
+    overflow: "visible",
   },
   descStyle: {
-    color: '#AFAFAF'
+    color: '#AFAFAF',
   },
   linkStyle: {
     color: '#7D59C8'

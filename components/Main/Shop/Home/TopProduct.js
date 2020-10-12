@@ -53,7 +53,7 @@ const productWidth = (width - 50) / 2;
 const productHeight = (productWidth / 361) * 452;
 const styles = StyleSheet.create({
   container: {
-    borderRadius: 15,
+    borderRadius: 10,
     backgroundColor: '#fff',
     margin: 10,
     shadowColor: '#2E272B',
@@ -90,6 +90,7 @@ const styles = StyleSheet.create({
     color: '#c79500',
     fontWeight: '600',
     paddingLeft: 20,
+    fontSize: 11
   },
   productName: {
     color: '#9A9A9A',

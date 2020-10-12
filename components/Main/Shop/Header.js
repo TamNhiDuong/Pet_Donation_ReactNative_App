@@ -53,7 +53,7 @@ export default class Header extends Component {
 
 const styles = StyleSheet.create({
   wrapper: {
-    height: height / 6,
+    height: height / 5,
     backgroundColor: '#437777', 
     padding: 10,
     justifyContent: 'space-around',
@@ -64,13 +64,13 @@ const styles = StyleSheet.create({
   logo: {height: 45, width: 45},
   title: { 
     color: '#FFF',
-    fontSize: 21,
-    paddingTop: 28,
+    fontSize: 20,
+    paddingTop: 20,
   },
   slogan: {
     color: '#FFF',
     fontSize: 11,
-    paddingTop: 8,
+    paddingTop: 3,
     textAlign: "center"
   },
   headertext: {

@@ -1,6 +1,3 @@
 {
-  "name": "reactNativeBasics",
-  "ios": {
-    "bundleIdentifier": "com.nhiduong.reactnativebasics"
-  }
+  "name": "reactNativeBasics"
 }

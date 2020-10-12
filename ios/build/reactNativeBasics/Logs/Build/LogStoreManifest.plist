@@ -6,6 +6,38 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>78B652CA-983C-416B-81F4-899747F584C4</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78B652CA-983C-416B-81F4-899747F584C4.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reactNativeBasics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>reactNativeBasics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace reactNativeBasics with scheme reactNativeBasics and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>624209312.90837598</real>
+			<key>timeStoppedRecording</key>
+			<real>624209314.31300604</real>
+			<key>title</key>
+			<string>Building workspace reactNativeBasics with scheme reactNativeBasics and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>78B652CA-983C-416B-81F4-899747F584C4</string>
+		</dict>
 		<key>A11CACB6-7944-4A02-BCD3-44CC896B36A9</key>
 		<dict>
 			<key>className</key>
