@@ -31,7 +31,7 @@ class CartView extends Component {
       const token = await getToken();
       const arrayDetail = this.props.cartArray.map(e => ({
         "id" : e.product.id,
-        "quantity": e.quantity
+        "quantity": e.quantity,
       }));
       const response = await submitOrder(token, arrayDetail);
       if (response === "THEM_THANH_CONG") {
