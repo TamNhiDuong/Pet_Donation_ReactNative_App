@@ -16,7 +16,7 @@ export default class Category extends React.Component {
       <TouchableOpacity onPress={this.gotoListProduct.bind(this)}>
         <View style={wrapper}>
           <View style={{ flex: 1, justifyContent: 'center' }}>
-            <Text style={text}>PET FOR ADOPTION IN APRIL 2020</Text>
+            <Text style={text}>PETS FOR DONATION IN 2020</Text>
           </View>
           <View style={{ flex: 4 }}>
             <Image source={banner} style={image} />

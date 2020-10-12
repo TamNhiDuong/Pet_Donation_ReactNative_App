@@ -26,7 +26,7 @@ export default class Collection extends React.Component {
                 key={e.id}>
                 <ImageBackground
                   style={image}
-                  source={{url: 'http://localhost/pet-adoption-server/images/type/'+ e.image}}>
+                  source={{url: e.image}}>
                   <View style={cateWrap}>
                     <Text style={cateTitle}>{e.name}</Text>
                   </View>

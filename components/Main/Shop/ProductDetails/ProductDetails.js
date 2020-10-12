@@ -53,10 +53,10 @@ export default class ProductDetails extends Component {
             <ScrollView style={{ flexDirection: 'row', padding: 10, height: swiperHeight }} horizontal >
               <Image 
                 style={productImageStyle}
-                source={{url: 'http://localhost/pet-adoption-server/images/product/'+ images[0]}} />
+                source={{url: images[0]}} />
               <Image 
                 style={productImageStyle} 
-                source={{url: 'http://localhost/pet-adoption-server/images/product/'+ images[1]}} />
+                source={{url: images[1]}} />
             </ScrollView>
           </View>
           <View style={footer}>
@@ -64,15 +64,16 @@ export default class ProductDetails extends Component {
               <Text style={textMain}>
                 <Text style={textBlack}>{name.toUpperCase()}</Text>
                 <Text style={textHighlight}> / </Text>
-                <Text style={textSmoke}>{price}€</Text>
+                <Text style={textSmoke}>Donation amount: {price}€</Text>
               </Text>
             </View>
             <View style={descContainer}>
               <Text style={descStyle}>{description}</Text>
               <View style={{ flexDirection: 'row', justifyContent: 'space-between', paddingTop: 15 }}>
                 <View style={{flexDirection: 'column'}}>
+                <View style={{flexDirection: 'column'}}>
+                </View>
                   <Text style={txtMaterial}>Age: {age}</Text>
-                  <Text style={txtMaterial}>Gender: {gender}</Text>
                   <Text style={txtMaterial}>Weight: {weight}</Text>
                   <Text style={txtMaterial}>Vaccinated on: {vaccinatedLastTime}</Text>
                 </View>

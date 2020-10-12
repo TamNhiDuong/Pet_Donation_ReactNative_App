@@ -50,7 +50,7 @@ export default class Authentication extends React.Component {
             onPress={() => this.props.navigation.navigate('MAIN')}>
             <Image source={icBack} style={icons} />
           </TouchableOpacity>
-          <Text style={title}>Espoo Pet Adoption</Text>
+          <Text style={title}>Espoo Pet Donation</Text>
           <Image source={icLogo} style={logoStyle} />
         </View>
 

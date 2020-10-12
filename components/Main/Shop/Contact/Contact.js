@@ -27,7 +27,7 @@ class Contact extends Component {
           >
             <MapView.Marker 
             coordinate={{latitude: 60.220800, longitude: 24.777650}}
-            title="Pet Adoption Center"
+            title="Pet Donation Center"
             description= "Come and visit"
             />
           </MapView>
@@ -59,8 +59,8 @@ const { width, height } = Dimensions.get('window');
 const styles = StyleSheet.create({
   wrapper: { flex: 1, backgroundColor: '#F6F6F6' },
   mapStyle: {
-    width: width - 40,
-    height: 230,
+    width: width - 20,
+    height: 200,
     alignSelf: 'center',
     alignItems: 'center',
     justifyContent: 'center'
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     margin: 10,
     borderRadius: 2,
     shadowColor: '#3B5458',
-    shadowOffset: { width: 0, height: 3 },
+    shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2
   },
   infoContainer: {
@@ -104,10 +104,6 @@ const styles = StyleSheet.create({
     color: '#c79500',
     fontWeight: '500'
   },
-  mapStyle: {
-    height: 300,
-    width: width - 20,
-  }
 });
 
 export default Contact;

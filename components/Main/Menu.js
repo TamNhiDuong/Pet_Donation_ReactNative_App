@@ -49,7 +49,7 @@ export default class Menu extends React.Component {
           <TouchableOpacity
             style={btnStyle}
             onPress={() => this.props.navigation.navigate('ORDERHISTORY')}>
-            <Text style={btnText}>Order History</Text>
+            <Text style={btnText}>Donation History</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={btnStyle}
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
   },
   btnText: {
     color: '#437777',
-    fontSize: 20,
+    fontSize: 15,
   },
   smallContainer: {
     flex: 1,

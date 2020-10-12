@@ -21,7 +21,7 @@ export default class TopProduct extends React.Component {
     return (
       <View style={container}>
         <View style={titleContainer}>
-          <Text style={title}>READY FOR ADOPTION IN APRIL</Text>
+          <Text style={title}>NEW PETS NEED YOUR DONATION</Text>
         </View>
 
         <FlatList
@@ -33,11 +33,11 @@ export default class TopProduct extends React.Component {
               style={productContainer}
               onPress={() => this.gotoProductDetails(item)}>
               <Image
-                source={{ uri: 'http://localhost/pet-adoption-server/images/product/' + item.images[0] }}
+                source={{ uri: item.images[0] }}
                 style={product}
               />
               <Text style={productName}>{item.name.toUpperCase()}</Text>
-              <Text style={priceStyle}>{item.price}€</Text>
+              <Text style={priceStyle}>Donation amount: {item.price}€</Text>
               <Text style={priceStyle}>{item.gender}</Text>
             </TouchableOpacity>
           )}

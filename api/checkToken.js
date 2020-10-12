@@ -1,5 +1,5 @@
 const checkToken = (token) => (
-  fetch('http://localhost/pet-adoption-server/check_login.php', {
+  fetch('https://php-server-pet-adoption.herokuapp.com/check_login.php', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

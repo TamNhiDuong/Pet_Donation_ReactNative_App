@@ -1,7 +1,7 @@
 import saveToken from './saveToken';
 
 const refreshToken = (token) => (
-  fetch('http://localhost/pet-adoption-server/refresh_token.php', {
+  fetch('https://php-server-pet-adoption.herokuapp.com/refresh_token.php', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

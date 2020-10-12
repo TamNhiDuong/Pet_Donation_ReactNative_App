@@ -1,5 +1,5 @@
 const register = (email, name, password) => (
-  fetch('http://localhost/pet-adoption-server/register.php',
+  fetch('https://php-server-pet-adoption.herokuapp.com/register.php',
 {
     method: 'POST',
     headers: {

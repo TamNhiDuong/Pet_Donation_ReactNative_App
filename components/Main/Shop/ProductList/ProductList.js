@@ -81,10 +81,10 @@ export default class ProductList extends Component {
                 <View style={productContainer}>
                   <Image 
                     style={productImage} 
-                    source={{url: 'http://localhost/pet-adoption-server/images/product/'+ item.images[0]}}/>
+                    source={{url: item.images[0]}}/>
                   <View style={productInfor}>
                     <Text style={txtName}>{item.name}</Text>
-                    <Text style={txtPrice}>{item.price}€</Text>
+                    <Text style={txtPrice}>Donation amount: {item.price}€</Text>
 
                     <View style={detailsRow}>
                       <Text style={txtColor}>{item.color}</Text>

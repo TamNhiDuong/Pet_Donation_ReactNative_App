@@ -37,12 +37,12 @@ class SearchView extends Component {
             <TouchableOpacity onPress={() => this.gotoDetail(item)}>
               <View style={product}>
                 <Image
-                  source={{ url: 'http://localhost/pet-adoption-server/images/product/' + item.images[0] }}
+                  source={{ url: item.images[0] }}
                   style={productImage}
                 />
                 <View style={mainRight}>
                   <Text style={txtName}>{toTitleCase(item.name)}</Text>
-                  <Text style={txtPrice}>{item.price}€</Text>
+                  <Text style={txtPrice}>Donation amount: {item.price}€</Text>
                   <Text style={txtMaterial}>{item.material}</Text>
                   <View style={{ flexDirection: 'row' }} >
                     <Text style={txtColor}>{item.color}</Text>

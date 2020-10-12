@@ -63,7 +63,7 @@ export default class Shop extends React.Component {
   alertDuplicated(id) {
     Alert.alert(
       'NOTICE',
-      'This product is already exist in cart. Do you want to add more?',
+      'This pet is already exist in your donation list. Do you want to add more?',
       [{text: 'OK', onPress: this.incrQuantity(id)}],
       {cancelable: false},
     );
@@ -129,7 +129,7 @@ export default class Shop extends React.Component {
           </TabNavigator.Item>
           <TabNavigator.Item
             selected={selectedTab === 'cart'}
-            title="Cart"
+            title="My Donation"
             onPress={() => this.setState({selectedTab: 'cart'})}
             renderIcon={() => <Image source={cartIcon0} style={icons} />}
             renderSelectedIcon={() => <Image source={cartIconS} style={icons} />}
