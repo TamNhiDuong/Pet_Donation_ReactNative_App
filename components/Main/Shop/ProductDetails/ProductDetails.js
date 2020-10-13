@@ -3,6 +3,9 @@ import {
   View, Text, StyleSheet, Image, Dimensions, ScrollView, TouchableOpacity
 } from 'react-native';
 
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import { faPaw } from '@fortawesome/free-solid-svg-icons';
+
 import global from '../../../global';
 
 const back = require('../../../../images/appIcon/back.png');
@@ -36,8 +39,9 @@ export default class ProductDetails extends Component {
       descStyle,
       txtMaterial,
       txtColor,
+      donationStyle
     } = styles;
-    const {name, id, price, color, age, description, images, vaccinatedLastTime, weight, gender} = this.props.product;
+    const {name, id, price, color, age, description, images, vaccinatedLastTime, weight, gender, totalDonation} = this.props.product;
     return (
       <ScrollView style={wrapper}>
         <View style={cardStyle}>
@@ -73,10 +77,26 @@ export default class ProductDetails extends Component {
                 <View style={{flexDirection: 'column'}}>
                 <View style={{flexDirection: 'column'}}>
                 </View>
+                <Text style={donationStyle}>{name.toUpperCase()} has been donated {totalDonation}€</Text>
+                <View class="bar">
+                  <View class="barfill" style="{ 'width': percentage + '%'}"></View>
+                </View>
+                <View style={{flexDirection: 'row', marginVertical: 7}}>
+                  <FontAwesomeIcon style={{marginRight: 10}}icon={faPaw} size={15} color={"#d6ae38"} />
                   <Text style={txtMaterial}>Age: {age}</Text>
+                </View>
+                <View style={{flexDirection: 'row', marginVertical: 7}}>
+                  <FontAwesomeIcon style={{marginRight: 10}}icon={faPaw} size={15} color={"#d6ae38"} />
                   <Text style={txtMaterial}>Weight: {weight}</Text>
+                </View>
+                <View style={{flexDirection: 'row', marginVertical: 7}}>
+                  <FontAwesomeIcon style={{marginRight: 10}}icon={faPaw} size={15} color={"#d6ae38"} />
                   <Text style={txtMaterial}>Gender: {gender}</Text>
-                  <Text style={txtMaterial}>Vaccinated on: {vaccinatedLastTime}</Text>
+                </View>
+                <View style={{flexDirection: 'row', marginVertical: 7}}>
+                  <FontAwesomeIcon style={{marginRight: 10}}icon={faPaw} size={15} color={"#d6ae38"} />
+                  <Text style={txtMaterial}>Vaccinated: {vaccinatedLastTime}</Text>
+                </View>
                 </View>
               </View>
             </View>
@@ -123,7 +143,7 @@ const styles = StyleSheet.create({
     height: width / 2
   },
   footer: {
-    flex: 6
+    flex: 6,
   },
   imageContainer: {
     flex: 6,
@@ -152,10 +172,14 @@ const styles = StyleSheet.create({
     color: '#7D59C8'
   },
   titleContainer: {
-    borderBottomWidth: 1,
+    borderBottomWidth: 2,
     borderColor: '#F6F6F6',
     marginHorizontal: 20,
     paddingBottom: 5
+  },
+  detailContainer: {
+    borderBottomWidth: 2,
+    borderColor: '#F6F6F6',
   },
   descContainer: {
     margin: 10,
@@ -189,6 +213,11 @@ const styles = StyleSheet.create({
     color: '#c79500',
     fontSize: 15,
     fontWeight: '600',
-    fontFamily: 'Avenir'
+    fontFamily: 'Avenir',
+  },
+  donationStyle: {
+    color: '#AFAFAF',
+    paddingBottom: 5
   }
+
 });

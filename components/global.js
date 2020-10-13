@@ -6,4 +6,5 @@ module.exports = {
     changeMenu: null,
     goToSearch: null,
     search: null,
+    isLogin: null,
 }

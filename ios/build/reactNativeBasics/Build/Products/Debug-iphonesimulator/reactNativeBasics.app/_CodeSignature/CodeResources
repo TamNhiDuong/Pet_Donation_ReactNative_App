@@ -8,6 +8,42 @@
 		<data>
 		TneGhDkoD7Q01Gl8e5EScUBsgfM=
 		</data>
+		<key>AppIcon20x20@2x.png</key>
+		<data>
+		sg3RVl4hS+IPC1WC2a0dUxn4L+0=
+		</data>
+		<key>AppIcon20x20@3x.png</key>
+		<data>
+		7g/oeGFSQnjkmCAvdKKlK3J15kc=
+		</data>
+		<key>AppIcon29x29@2x.png</key>
+		<data>
+		RjmTxNc/eui5/eBagOzByfq5RsM=
+		</data>
+		<key>AppIcon29x29@3x.png</key>
+		<data>
+		wnxH2DoeiKw76HkSaIaDI2S+Uqw=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		sP3m8GXtiOtD9M8F7T6dVinRIIk=
+		</data>
+		<key>AppIcon40x40@3x.png</key>
+		<data>
+		Ms+Nf6gZrf4oNtYcOWNORlGK5S0=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		Ms+Nf6gZrf4oNtYcOWNORlGK5S0=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		lvAm7S9F/X9DO8a5frLHzYZOOmA=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		lELsTUd1MaxVK6HS0W0dBgtj1lI=
+		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
 		rUN2yXcfxhEi6KHOuo761GXIjx0=
@@ -111,7 +147,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZTnsWbcxULxA7Rb0ahE9Y7YcmHo=
+		RqIkPu8Sa9niqscICS75fi9H3ck=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -173,6 +209,105 @@
 			<key>hash2</key>
 			<data>
 			eVXKFBJ7MEEsEU6xPP1wK12rJl/rGIDRaV1zyqgkzeE=
+			</data>
+		</dict>
+		<key>AppIcon20x20@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sg3RVl4hS+IPC1WC2a0dUxn4L+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			DPCu0WV2jqXqijgsFZY/ZSlK0UNRDfj+wD2BG91mVEs=
+			</data>
+		</dict>
+		<key>AppIcon20x20@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7g/oeGFSQnjkmCAvdKKlK3J15kc=
+			</data>
+			<key>hash2</key>
+			<data>
+			iNwdYt8E+yW0RQ6dla62TYyC5Mo8whJa/IadcB/k9Zw=
+			</data>
+		</dict>
+		<key>AppIcon29x29@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RjmTxNc/eui5/eBagOzByfq5RsM=
+			</data>
+			<key>hash2</key>
+			<data>
+			W58RnQtPGVLRR64YpaLTPQarNDE3xeY+vGmWt3K3Ipg=
+			</data>
+		</dict>
+		<key>AppIcon29x29@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wnxH2DoeiKw76HkSaIaDI2S+Uqw=
+			</data>
+			<key>hash2</key>
+			<data>
+			KNkFEZWoGSr3hWcqld6hmkTyILC2fiET1btvWoGTNTk=
+			</data>
+		</dict>
+		<key>AppIcon40x40@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sP3m8GXtiOtD9M8F7T6dVinRIIk=
+			</data>
+			<key>hash2</key>
+			<data>
+			d7Xgk4iifSf5g7zF/1fVt2nCZ6433TxpnLaDXmFlKkk=
+			</data>
+		</dict>
+		<key>AppIcon40x40@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ms+Nf6gZrf4oNtYcOWNORlGK5S0=
+			</data>
+			<key>hash2</key>
+			<data>
+			xT6oZuf7jM2wPgkrYbkAbICr6kc0gVqa1MdlzOr1014=
+			</data>
+		</dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ms+Nf6gZrf4oNtYcOWNORlGK5S0=
+			</data>
+			<key>hash2</key>
+			<data>
+			xT6oZuf7jM2wPgkrYbkAbICr6kc0gVqa1MdlzOr1014=
+			</data>
+		</dict>
+		<key>AppIcon60x60@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lvAm7S9F/X9DO8a5frLHzYZOOmA=
+			</data>
+			<key>hash2</key>
+			<data>
+			cbK3Hrvtmd8QO4zi6gOKr0DLf6kX1OE3DWphAYM0Qu0=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lELsTUd1MaxVK6HS0W0dBgtj1lI=
+			</data>
+			<key>hash2</key>
+			<data>
+			dnh1Xjp+n4OsjZ6fsqc2MQM3F50a8brNPkpRMMDZfKQ=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib</key>

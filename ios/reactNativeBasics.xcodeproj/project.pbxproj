@@ -692,7 +692,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.petAdoptionApp;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.petAdoptionAppIcon;
 				PRODUCT_NAME = reactNativeBasics;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -711,7 +711,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.petAdoptionApp;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.petAdoptionAppIcon;
 				PRODUCT_NAME = reactNativeBasics;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

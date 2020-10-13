@@ -26,6 +26,15 @@ class CartView extends Component {
     const { navigator } = this.props;
     navigator.push({name: 'PRODUCTDETAILS', product});
   }
+  alert(message) {
+    Alert.alert(
+      'NOTICE',
+      message,
+      [{text: 'OK'}],
+      {cancelable: false},
+    );
+  }
+
   async submitOrder() {
     try {
       const token = await getToken();
@@ -36,8 +45,10 @@ class CartView extends Component {
       const response = await submitOrder(token, arrayDetail);
       if (response === "THEM_THANH_CONG") {
         console.log('THEM_THANH_CONG');
+        alert("Thank you! You have successfully donated!");
       } else {
-        console.log('NO');
+        console.log('NO'); 
+        alert("You cannot donate without login to your account!");
       }
     } catch (e) {
       console.log(e);
@@ -49,7 +60,7 @@ class CartView extends Component {
     const { main, checkoutButton, checkoutTitle, wrapper,
       product, mainRight, productController,
       txtName, txtPrice, productImage, numberOfProduct,
-      txtShowDetail, showDetailContainer } = styles;
+      txtShowDetail, showDetailContainer, unActiveButton } = styles;
 
     const priceArr = cartArray.map(e => e.product.price * e.quantity);
     const totalPrice = priceArr.length ? priceArr.reduce((a, b) => a + b) : 0;
@@ -88,10 +99,9 @@ class CartView extends Component {
             </View>
           )}
         />
-
-        <TouchableOpacity style={checkoutButton} onPress={this.submitOrder.bind(this)}>
-          <Text style={checkoutTitle}>TOTAL {totalPrice}€ CHECKOUT NOW</Text>
-        </TouchableOpacity>
+            <TouchableOpacity style={checkoutButton} onPress={this.submitOrder.bind(this)}>
+              <Text style={checkoutTitle}>TOTAL {totalPrice}€ CHECKOUT NOW</Text>
+            </TouchableOpacity>
       </View>
     );
   }
@@ -111,6 +121,15 @@ const styles = StyleSheet.create({
     margin: 10,
     marginTop: 0,
     backgroundColor: '#437777',
+    borderRadius: 2,
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  unActiveButton: {
+    height: 50,
+    margin: 10,
+    marginTop: 0,
+    backgroundColor: 'gray',
     borderRadius: 2,
     alignItems: 'center',
     justifyContent: 'center'
