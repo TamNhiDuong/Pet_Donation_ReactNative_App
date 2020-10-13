@@ -1,3 +1,6 @@
 {
-  "name": "reactNativeBasics"
+  "expo": {
+    "name": "reactNativeBasics",
+    "icon": "./images/appLogo/appLogo.png"
+  }
 }
